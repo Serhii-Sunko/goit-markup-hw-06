@@ -561,6 +561,14 @@ body {
   margin-left: 0;
   padding-top: 12px;
 }
+.submit-form {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
 .submite-caption {
   font-style: var(--font-style);
   font-weight: var(--font);
@@ -573,7 +581,7 @@ body {
   margin-bottom: 20px;
 }
 .submite-input {
-  width: 356px;
+  width: 358px;
   padding: 15px;
 
   font-family: inherit;
@@ -596,20 +604,16 @@ body {
   align-items: center;
   text-align: center;
   cursor: pointer;
-
+  height: 50px;
   min-width: 200px;
   padding: 10px;
-  margin-left: 12px;
+  margin: 35px 0 0 12px;
   border: none;
   border-radius: 4px;
   transition: color var(--animation);
 }
 .submite-btn:hover {
   box-shadow: var(--submit-box-shadow);
-}
-.input-container {
-  display: flex;
-  flex-direction: row;
 }
 .submite-btn-caption {
   font-style: var(--font-style);
@@ -885,7 +889,7 @@ body {
 }
 
 .agreement-link {
-  fill: var(--accent-color);
+  color: var(--accent-color);
   text-decoration: underline;
   cursor: pointer;
 }
